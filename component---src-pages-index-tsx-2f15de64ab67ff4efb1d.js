@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{QeBL:function(e,t,n){"use strict";n.r(t);var l=n("q1tI"),a=n.n(l),o=n("9Dj+"),c=n("H8eV");t.default=function(){return a.a.createElement(o.a,null,a.a.createElement(c.a,{title:"Home"}),a.a.createElement("h1",null,"Hi people"),a.a.createElement("p",null,"Welcome to Azumos official website."),a.a.createElement("p",null,"Let's build something great together."))}}}]);
+//# sourceMappingURL=component---src-pages-index-tsx-2f15de64ab67ff4efb1d.js.map
