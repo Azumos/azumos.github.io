@@ -16,7 +16,7 @@ export const NavItem: FunctionComponent<NavItemComponentProps> = ({
   return (
     <Link to={`${route}`}>
       <Text
-        color={isActive ? "secondary.900" : "text"}
+        color={isActive ? "secondary.900" : "text.primary"}
         px={[1, 1, 2, 2]}
         fontSize={["sm", "md", "lg", "xl"]}
       >
