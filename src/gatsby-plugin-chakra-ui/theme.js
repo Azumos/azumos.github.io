@@ -1,14 +1,14 @@
 import { theme } from "@chakra-ui/core";
-console.log(theme);
+
 const { colors } = theme;
-const { twitter } = colors;
+const { twitter, facebook } = colors;
 
 export default {
   ...theme,
   colors: {
     ...colors,
     primary: twitter,
-    secondary: "#663399",
+    secondary: facebook,
     text: "#fff",
     navItem: "#A0AEC0",
   },

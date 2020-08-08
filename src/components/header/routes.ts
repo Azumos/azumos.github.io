@@ -7,6 +7,10 @@ const routes = [
     route: "/team",
     text: "Team",
   },
+  {
+    route: "/contact",
+    text: "Contact",
+  },
 ];
 
 export { routes };
