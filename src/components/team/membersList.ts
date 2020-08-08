@@ -13,7 +13,8 @@ export const membersList: IMember[] = [
     name: "Welvin Bun",
     role: "Technology specialist",
     picture: welvin,
-    description: "",
+    description:
+      "A passionate programmer who enjoys taking complex problems and turning them into simple and efficient solutions using code. Welvin is currently a Computer Science student at the University of Hong Kong.",
   },
   {
     name: "person C",
