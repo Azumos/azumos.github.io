@@ -13,7 +13,7 @@ const Layout: React.FC<ILayoutComponentProps> = ({ children, location }) => {
   return (
     <Box backgroundColor="secondary.800" minHeight="100vh">
       <Header siteTitle={"Azumos"} location={location} />
-      <Box m="0 auto" p="0 1.0875rem 1.45rem" maxWidth="960px">
+      <Box m="10px auto" p="0 1.0875rem 1.45rem" maxWidth="960px">
         <Box minHeight="80vh">{children}</Box>
         <footer>
           © {new Date().getFullYear()}, Built with ❤️ in Hong Kong

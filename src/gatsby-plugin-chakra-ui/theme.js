@@ -9,7 +9,10 @@ export default {
     ...colors,
     primary: twitter,
     secondary: facebook,
-    text: "#fff",
+    text: {
+      primary: "#fff",
+      secondary: "#000",
+    },
     navItem: "#A0AEC0",
   },
   breakpoints: ["30em", "48em", "62em", "80em"],
