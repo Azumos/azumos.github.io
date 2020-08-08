@@ -22,7 +22,7 @@ const Header: React.FC<IHeaderComponentProps> = ({ siteTitle, location }) => (
     zIndex={1}
   >
     <Flex flex={1}>
-      <Link to="">
+      <Link to="/">
         <Heading as="h3">{siteTitle}</Heading>
       </Link>
     </Flex>
