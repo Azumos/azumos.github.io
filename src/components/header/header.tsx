@@ -2,13 +2,10 @@ import { Link } from "gatsby";
 import PropTypes from "prop-types";
 import React from "react";
 
+import { Heading } from "@chakra-ui/core";
+
 const Header: React.FC = ({ siteTitle }) => (
-  <header
-    style={{
-      background: `rebeccapurple`,
-      marginBottom: `1.45rem`,
-    }}
-  >
+  <Heading as="h2" color="primary" backgroundColor="secondary">
     <div
       style={{
         margin: `0 auto`,
@@ -28,7 +25,7 @@ const Header: React.FC = ({ siteTitle }) => (
         </Link>
       </h1>
     </div>
-  </header>
+  </Heading>
 );
 
 Header.propTypes = {

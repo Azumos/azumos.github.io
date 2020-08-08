@@ -1,14 +1,14 @@
 import React from "react";
+import { Heading, Text } from "@chakra-ui/core";
 
-import { Layout } from "../components/layout";
-import { SEO } from "../components/seo";
+import { Layout, SEO } from "../components";
 
 const IndexPage: React.FC = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to Azumos official website.</p>
-    <p>Let's build something great together.</p>
+    <Heading as="h1">Hi people</Heading>
+    <Text>Welcome to Azumos official website.</Text>
+    <Text>Let's build something great together.</Text>
   </Layout>
 );
 
