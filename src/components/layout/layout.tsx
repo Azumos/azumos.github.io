@@ -6,13 +6,12 @@ import { Header } from "../header";
 
 interface ILayoutComponentProps {
   children: React.ReactNode;
-  location: any;
 }
 
-const Layout: React.FC<ILayoutComponentProps> = ({ children, location }) => {
+const Layout: React.FC<ILayoutComponentProps> = ({ children }) => {
   return (
     <Box backgroundColor="secondary.800" minHeight="100vh">
-      <Header siteTitle={"Azumos"} location={location} />
+      <Header siteTitle={"Azumos"} />
       <Box m="10px auto" p="0 1.0875rem 1.45rem" maxWidth="960px">
         <Box minHeight="80vh">{children}</Box>
         <footer>
