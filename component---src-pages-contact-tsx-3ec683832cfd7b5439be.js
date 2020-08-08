@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[3],{"0Aie":function(t,e,a){"use strict";a.r(e);var n=a("q1tI"),c=a.n(n),o=a("qWyU"),i=a("Nhdc");e.default=function(t){var e=t.location;return c.a.createElement(i.a,{location:e},c.a.createElement(i.b,{title:"Contact"}),c.a.createElement(o.a,{as:"h1"},"Contact page"))}}}]);
+//# sourceMappingURL=component---src-pages-contact-tsx-3ec683832cfd7b5439be.js.map
