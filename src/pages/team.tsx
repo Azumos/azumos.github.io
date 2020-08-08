@@ -3,13 +3,13 @@ import { Heading, Text } from "@chakra-ui/core";
 
 import { Layout, SEO } from "../components";
 
-const IndexPage: React.FC = ({ location }) => {
+const TeamPage: React.FC = ({ location }) => {
   return (
     <Layout location={location}>
-      <SEO title="Home" />
-      <Heading as="h1">Home page</Heading>
+      <SEO title="Team" />
+      <Heading as="h1">Team page</Heading>
     </Layout>
   );
 };
 
-export default IndexPage;
+export default TeamPage;
