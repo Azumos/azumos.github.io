@@ -41,7 +41,7 @@ export const membersList: IMember[] = [
   },
   {
     name: "Mikael Ken Slamet",
-    role: "Market analyst",
+    role: "Business analyst",
     picture: ken,
     description: "",
   },
