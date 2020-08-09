@@ -29,7 +29,7 @@ export const membersList: IMember[] = [
   },
   {
     name: "Levinna Natalia",
-    role: "Business analyst",
+    role: "R&D specialist",
     picture: levinna,
     description: "",
   },
