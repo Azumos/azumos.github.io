@@ -1,7 +1,7 @@
 import React from "react";
 import { Heading, Text } from "@chakra-ui/core";
 
-import { Layout, SEO } from "../components";
+import { Layout, SEO, Home } from "../components";
 import { LocationContext } from "../context/LocationContext";
 
 const IndexPage: React.FC = ({ location }) => {
@@ -9,7 +9,7 @@ const IndexPage: React.FC = ({ location }) => {
     <LocationContext.Provider value={location}>
       <Layout>
         <SEO title="Home" />
-        <Heading as="h1">Home page</Heading>
+        <Home />
       </Layout>
     </LocationContext.Provider>
   );
