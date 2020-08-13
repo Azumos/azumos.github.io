@@ -48,9 +48,9 @@
     "start": "npm run develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
-    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "test": "echo \"There is no test for now, might write later\" && exit 0",
     "lint": "npm run format && eslint --ignore-path .gitignore . --ext ts --ext tsx --ext js --ext jsx",
-    "deploy": "gatsby build && gh-pages -d public -b master"
+    "deploy": "gatsby build && gh-pages -d public -b master -r https://$GH_TOKEN@github.com/Azumos/azumos.github.io.git"
   },
   "repository": {
     "type": "git",
