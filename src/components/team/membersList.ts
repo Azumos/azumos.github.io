@@ -43,7 +43,8 @@ export const membersList: IMember[] = [
     name: "Mikael Ken Slamet",
     role: "Business analyst",
     picture: ken,
-    description: "",
+    description:
+      "Curious and proactive student that enjoys connecting with people from around the world and learning new things. Ken is currently a Civil Engineering student in The University of Hong Kong with internship experiences in India and Myanmar.",
   },
   {
     name: "Regina Tania",

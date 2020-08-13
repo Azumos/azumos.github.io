@@ -1,6 +1,15 @@
 import React from "react";
-import { Box } from "@chakra-ui/core";
+
+import { Model } from "./model";
+import { About } from "./about";
+import { Mission } from "./mission";
 
 export const Home: React.FC = () => {
-  return <Box>home page</Box>;
+  return (
+    <>
+      <About />
+      <Mission />
+      <Model />
+    </>
+  );
 };
