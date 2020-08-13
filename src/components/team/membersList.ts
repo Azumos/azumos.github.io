@@ -50,7 +50,8 @@ export const membersList: IMember[] = [
     name: "Regina Tania",
     role: "Architectural design specialist",
     picture: regina,
-    description: "",
+    description:
+      "A lifelong learner, Regina is a final year HKU Architecture student fueled with profound curiosity across different disciplines. Eager on exploring new ways of making with current interest in materiality and sustainable urban solutions, in particular incorporating circularity concepts within the built environment.",
   },
   {
     name: "Welvin Bun",
