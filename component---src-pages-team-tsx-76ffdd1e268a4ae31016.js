@@ -1,2 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{Kxv3:function(e,a,t){"use strict";t.r(a);var n=t("q1tI"),c=t.n(n),l=t("Nhdc"),r=t("RJXf");a.default=function(e){var a=e.location;return c.a.createElement(r.a.Provider,{value:a},c.a.createElement(l.a,null,c.a.createElement(l.b,{title:"Team"}),c.a.createElement(l.c,null)))}}}]);
-//# sourceMappingURL=component---src-pages-team-tsx-76ffdd1e268a4ae31016.js.map
