@@ -62,7 +62,8 @@ export const MemberCard: React.FC<IMemberCardComponentProps> = ({
         <Text fontSize="xl">{name}</Text>
         <Text fontSize="l">{role}</Text>
         <Button
-          p={2}
+          px={2}
+          py={0}
           backgroundColor="primary.500"
           size="sm"
           color="text.primary"
