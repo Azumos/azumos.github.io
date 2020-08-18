@@ -3,6 +3,7 @@ interface IMember {
   role: string;
   picture: string;
   description?: string;
+  responseibility?: string;
 }
 
 export { IMember };

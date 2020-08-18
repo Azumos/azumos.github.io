@@ -24,7 +24,7 @@ export const MemberCard: React.FC<IMemberCardComponentProps> = ({
 }) => {
   const [isModalOpen, setModalOpen] = useState(false);
   const modalRef = useRef();
-  const { name, role, picture, description } = memberData;
+  const { name, role, picture, description, responsibility } = memberData;
 
   return (
     <Box backgroundColor="text.primary" roundedBottom="md" m={5}>
@@ -52,6 +52,7 @@ export const MemberCard: React.FC<IMemberCardComponentProps> = ({
               </ModalHeader>
               <ModalCloseButton />
               <ModalBody>{description ?? ""}</ModalBody>
+              <ModalBody>{responsibility ?? ""}</ModalBody>
             </ModalContent>
           </Modal>
         )}
