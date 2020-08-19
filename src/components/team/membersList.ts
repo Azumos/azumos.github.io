@@ -67,6 +67,8 @@ export const membersList: IMember[] = [
     picture: regina,
     description:
       "A lifelong learner, Regina is a final year HKU Architecture student fueled with profound curiosity across different disciplines. Eager on exploring new ways of making with current interest in materiality and sustainable urban solutions, in particular incorporating circularity concepts within the built environment.",
+    responsibility:
+      "As Architectural Design Specialist, Regina synthesizes her profound interest in innovative engineering solutions in tacking one of Hong Kong's major urban environmental concerns through user-centric approach, ensuring the project's sensibility towards different stakeholders. She collaborated with R&D and Business team for the project's market and feasibility study; and with BIM and Structural team for the facade module application through case studies.",
   },
   {
     name: "Welvin Bun",
