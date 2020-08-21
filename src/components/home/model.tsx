@@ -2,8 +2,7 @@ import React from "react";
 import { Box, Heading } from "@chakra-ui/core";
 
 export const Model: React.FC = () => {
-  const autodeskModelUrl =
-    "https://connect1412.autodesk360.com/g/shares/SH56a43QTfd62c1cd968cc25ec31e0c3693d?mode=embed";
+  const autodeskModelUrl = "https://a360.co/2FAF3dp";
   return (
     <Box textAlign="center">
       <Heading>Our facade model</Heading>
