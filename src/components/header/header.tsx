@@ -2,7 +2,7 @@ import { useContext } from "react";
 import { Link } from "gatsby";
 import PropTypes from "prop-types";
 import React from "react";
-import { Heading, Flex } from "@chakra-ui/core";
+import { Heading, Flex, Link as ChakraLink, Text } from "@chakra-ui/core";
 
 import { routes } from "./routes";
 import { NavItem } from "./navitem";
@@ -39,6 +39,11 @@ const Header: React.FC<IHeaderComponentProps> = ({ siteTitle }) => {
             isActive={location.pathname === route}
           ></NavItem>
         ))}
+        <ChakraLink href="/assets/infographic.pdf" color="white" _hover={{}}>
+          <Text px={[1, 1, 2, 2]} fontSize={["sm", "md", "lg", "xl"]}>
+            Infographic
+          </Text>
+        </ChakraLink>
       </Flex>
     </Flex>
   );
